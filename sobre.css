@@ -1,0 +1,66 @@
+*{
+    background-color: grey;
+}
+.titulo img {
+    width: 60px;
+    height: 60px;
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    display: flex;  
+    flex-wrap: wrap; 
+    text-align: center;
+    margin: 10px 37%  37%  10px,
+}
+.mosaico-item img{
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px; /* Define uma largura fixa para cada item */
+    transition: all .3s;
+    
+}
+.mosaico-item{
+    margin: 50px;
+}
+.titulogaleria{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+footer{
+    background-color: black; 
+}
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.mosaico {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não couberem */
+    padding: 20px;
+    width: 80%;
+    margin: auto; /*coloca o container para o meio automaticamente*/
+}
+.mosaico:hover .mosaico-item{
+    opacity: .5;
+}
+.mosaico-item:hover .mosaico{
+    opacity: .1;
+}
+.mosaico-item:hover{
+    transform: translateY(-20px)
+}
